@@ -1,0 +1,12 @@
+---
+layout: default
+category: sideline
+modal-id: 6
+date: 2013-01-01
+img: TubeStar.png
+alt: TubeStar
+project-date: 2013
+description: An open source game that simulates running a YouTube channel.  
+site: http://tubestar.azurewebsites.net/
+
+---
