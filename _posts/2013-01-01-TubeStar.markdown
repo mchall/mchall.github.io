@@ -6,7 +6,7 @@ date: 2013-01-01
 img: TubeStar.png
 alt: TubeStar
 project-date: 2013
-description: An open source game that simulates running a YouTube channel.  
+description: An open source game that simulates running a YouTube channel.<br/>Over 300 000 downloads.  
 site: http://tubestar.azurewebsites.net/
 
 ---
