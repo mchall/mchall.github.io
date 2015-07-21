@@ -4,9 +4,8 @@ modal-id: 2
 date: 2010-01-01
 img: PropCtrl.jpeg
 alt: PropCtrl
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+project-date: 2010 - 2013
+description: C# application for capturing property information by estate agents, and uploading listing to Property24, and other listing portals.<br/>Client uses a WinForms application that interacts with WCF web service on the server-side. Web service interacts with a SQL Server database. 
+site: http://takethelead.propctrl.com/
 
 ---
