@@ -5,7 +5,7 @@ date: 2013-01-01
 img: Domofond.jpeg
 alt: Domofond
 project-date: 2013 - 2014
-description: Russian version of South Africa's Property24.com, a property portal. 
+description: Russia's &#35;1 Property Portal.<br/>Includes a portal to display listings for end users, and a backend admin system for agents to manage listings. 
 site: http://www.domofond.ru/
 
 ---
