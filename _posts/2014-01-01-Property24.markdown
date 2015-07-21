@@ -1,5 +1,6 @@
 ---
 layout: default
+category: work
 modal-id: 4
 date: 2014-01-01
 img: Property24.png
