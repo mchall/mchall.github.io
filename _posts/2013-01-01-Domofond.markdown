@@ -1,9 +1,9 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: circus.png
-alt: image-alt
+date: 2013-01-01
+img: Domofond.jpeg
+alt: Domofont
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
