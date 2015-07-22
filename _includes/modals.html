@@ -18,7 +18,7 @@
                             <p>{{ post.description }}</p>
 							
 							<ul class="list-inline item-details">
-								{% for tag in post.tags | split: ',' %}
+								{% for tag in post.tags %}
 									<li>{{ tag | upcase }}</li>
 								{% endfor %}
 							</ul>
