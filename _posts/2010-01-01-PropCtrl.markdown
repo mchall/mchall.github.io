@@ -8,5 +8,6 @@ alt: PropCtrl
 project-date: 2010 - 2013
 description: C# application for capturing property information by estate agents, and uploading listing to Property24, and other listing portals.<br/>Client uses a WinForms application that interacts with WCF web service on the server-side. Web service interacts with a SQL Server database. 
 site: http://takethelead.propctrl.com/
+tags: Windows forms,WPF,WCF Web Services,SQL Server
 
 ---

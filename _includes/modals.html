@@ -16,6 +16,13 @@
                             <hr class="star-primary">
 							<a href="{{ post.site }}" target="_blank"><img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"></a>                            
                             <p>{{ post.description }}</p>
+							
+							<ul class="list-inline item-details">
+								{% for tag in post.tags | split: ',' %}
+									<li>{{ tag | upcase }}</li>
+								{% endfor %}
+							</ul>
+							
                             <ul class="list-inline item-details">
                                 <li>Website:
                                     <strong><a href="{{ post.site }}" target="_blank">Visit</a>
