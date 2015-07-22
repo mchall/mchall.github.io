@@ -141,10 +141,21 @@ header .intro-text .skills {
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
-
+	
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+}
+
+.fork-banner {
+	position: fixed; 
+	top: 100px; 
+	left: 0; 
+	border: 0;
+}
+
+.fork-banner.navbar-shrink {
+	top: 75px; 
 }
 
 @media(max-width:768px) {
