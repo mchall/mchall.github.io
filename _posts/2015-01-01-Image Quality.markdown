@@ -1,6 +1,6 @@
 ---
 layout: default
-category: research
+category: sideline
 modal-id: 9
 date: 2015-01-01
 img: ImageQuality.png

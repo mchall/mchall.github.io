@@ -1,6 +1,6 @@
 ---
 layout: default
-category: research
+category: sideline
 modal-id: 10
 date: 2011-01-01
 img: GoogleMaps.png

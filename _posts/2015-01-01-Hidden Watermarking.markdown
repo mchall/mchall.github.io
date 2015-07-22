@@ -1,6 +1,6 @@
 ---
 layout: default
-category: research
+category: sideline
 modal-id: 8
 date: 2015-01-01
 img: Watermarking.png
