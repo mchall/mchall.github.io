@@ -10,21 +10,19 @@
                 </div>
             </div>
             <div class="row">
-                {% for post in site.posts %}
-					{% if post.category == "work" %}
-						<div class="col-sm-3 portfolio-item">
-							<a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-								<div class="caption">
-									<div class="caption-content">
-										<i class="fa fa-search-plus fa-3x"></i>
-									</div>
+                {% for post in site.categories.work %}
+					<div class="col-sm-3 portfolio-item">
+						<a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
 								</div>
-								<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-								<hr>
-								<div class="portfolio-desc">{{ post.alt }}</div>
-							</a>
-						</div>
-					{% endif %}
+							</div>
+							<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+							<hr>
+							<div class="portfolio-desc">{{ post.alt }}</div>
+						</a>
+					</div>
                 {% endfor %}
             </div>
         </div>
@@ -37,21 +35,19 @@
                 </div>
             </div>
             <div class="row">
-                {% for post in site.posts %}
-					{% if post.category == "sideline" %}
-						<div class="col-sm-4 portfolio-item">
-							<a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-								<div class="caption">
-									<div class="caption-content">
-										<i class="fa fa-search-plus fa-3x"></i>
-									</div>
+                {% for post in site.categories.sideline %}
+					<div class="col-sm-4 portfolio-item">
+						<a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+							<div class="caption">
+								<div class="caption-content">
+									<i class="fa fa-search-plus fa-3x"></i>
 								</div>
-								<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-								<hr>
-								<div class="portfolio-desc">{{ post.alt }}</div>
-							</a>
-						</div>
-					{% endif %}
+							</div>
+							<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+							<hr>
+							<div class="portfolio-desc">{{ post.alt }}</div>
+						</a>
+					</div>
                 {% endfor %}
             </div>
         </div>
