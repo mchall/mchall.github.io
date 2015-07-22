@@ -414,6 +414,11 @@ footer .footer-below {
     margin: 30px 0;
 }
 
+.portfolio-modal .modal-content .item-details.tag-list {
+    font-size: 0.8em;
+	color: #{{ site.color.primary }};
+}
+
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;

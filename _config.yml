@@ -29,8 +29,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Kenilworth
-  - line: Cape Town
+  - line: Kenilworth, Cape Town
   - line: South Africa
 
 # Credits content
