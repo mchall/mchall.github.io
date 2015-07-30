@@ -141,22 +141,25 @@ header .intro-text .skills {
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
-	
+
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
 }
 
 .fork-banner {
-	position: fixed; 
-	top: 100px; 
-	left: 0; 
+	position: fixed;
+	top: 100px;
+	left: 0;
 	border: 0;
 	z-index: 500;
+  -webkit-transition: top .3s;
+  -moz-transition: top .3s;
+  transition: top .3s;
 }
 
 .fork-banner.navbar-shrink {
-	top: 75px; 
+	top: 75px;
 }
 
 @media(max-width:768px) {
@@ -478,4 +481,15 @@ footer .footer-below {
 
 .about-text {
 	text-align: center;
+}
+
+.delay1s {
+  animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-delay: .1s;
+  -o-animation-delay: .1s;
+  transition-delay: .1s;
+  -webkit-transition-delay: .1s;
+  -moz-transition-delay: .1s;
+  -o-transition-delay: .1s;
 }
