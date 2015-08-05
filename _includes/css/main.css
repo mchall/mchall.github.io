@@ -451,6 +451,11 @@ footer .footer-below {
   color: #{{ site.color.primary }};
 }
 
+.portfolio-modal .modal-content .item-details.tag-list .fa-circle{
+  font-size: 0.3em;
+  vertical-align: middle;"
+}
+
 .portfolio-modal .close-modal {
   position: absolute;
   top: 25px;

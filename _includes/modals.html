@@ -16,7 +16,10 @@
 
             <ul class="list-inline item-details tag-list">
               {% for tag in post.tags %}
-              <li>{{ tag | upcase }}</li>
+                <li>{{ tag | upcase }}</li>
+                {% if not forloop.last %}
+                  <li><i class="fa fa-circle fa-1"></i></li>
+                {% endif %}
               {% endfor %}
             </ul>
 
