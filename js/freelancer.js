@@ -35,3 +35,7 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$('#download-btn').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'download');
+});
