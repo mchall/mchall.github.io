@@ -3,11 +3,8 @@ $( document ).ready(function() {
     //No animations for mobile
   }
   else{
-    $('#profile .title').css('opacity', 0).one('inview', function(isInView) {
+    $('#profile').css('opacity', 0).one('inview', function(isInView) {
       if (isInView) {$(this).addClass('animated fadeInDown');}
-    });
-    $('#profile img').css('opacity', 0).one('inview', function(isInView) {
-      if (isInView) {$(this).addClass('animated fadeInRight');}
     });
 
     $('#portfolio .title').css('opacity', 0).one('inview', function(isInView) {
@@ -17,6 +14,9 @@ $( document ).ready(function() {
       if (isInView) {$(this).addClass('animated fadeInRight');}
     });
 
+    $('#about img').css('opacity', 0).one('inview', function(isInView) {
+      if (isInView) {$(this).addClass('animated fadeInLeft');}
+    });
     $('#about .title').css('opacity', 0).one('inview', function(isInView) {
       if (isInView) {$(this).addClass('animated fadeInDown');}
     });
