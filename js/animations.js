@@ -26,19 +26,5 @@ $( document ).ready(function() {
     $('#about .download').css('opacity', 0).one('inview', function(isInView) {
       if (isInView) {$(this).addClass('animated fadeInUp');}
     });
-
-    $('#contact .title').css('opacity', 0).one('inview', function(isInView) {
-      if (isInView) {$(this).addClass('animated fadeInDown');}
-    });
-    $('#contact form').css('opacity', 0).one('inview', function(isInView) {
-      if (isInView) {$(this).addClass('animated fadeInRight');}
-    });
-
-    $('#footer .location').css('opacity', 0).one('inview', function(isInView) {
-      if (isInView) {$(this).addClass('animated fadeInLeft');}
-    });
-    $('#footer .credits').css('opacity', 0).one('inview', function(isInView) {
-      if (isInView) {$(this).addClass('animated fadeInRight');}
-    });
   }
 });

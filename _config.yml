@@ -7,9 +7,8 @@ skills: "Senior Software Engineer"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 0099e5
-  secondary: 111111
-  secondary-dark: 111111
+  primary: EEE
+  accent: 0099e5
 
 # Footer settings
 footer:
