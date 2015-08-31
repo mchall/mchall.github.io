@@ -36,6 +36,7 @@ h6 {
 header {
   text-align: center;
   background: #{{ site.color.primary }};
+  color: #{{ site.color.text }};
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -63,6 +64,15 @@ section h2 {
 
 section.success {
   background: #{{ site.color.primary }};
+  color: #{{ site.color.text }};
+}
+
+section.success a,
+section.success a:hover,
+section.success a:focus,
+section.success a:active,
+section.success a.active {
+  color: #{{ site.color.text }};
 }
 
 @media(max-width:767px) {
@@ -143,7 +153,7 @@ section.success {
 }
 
 .email {
-  color: #000;
+  color: #{{ site.color.text }};
   padding: 0;
   margin-bottom: 30px;
   font-size: 18px;
@@ -161,9 +171,9 @@ section.success {
 
 .btn-outline {
   margin-top: 15px;
-  border: solid 2px #000;
+  border: solid 2px #{{ site.color.text }};
   font-size: 20px;
-  color: #000;
+  color: #{{ site.color.text }};
 }
 
 .portfolio-modal {
