@@ -152,14 +152,14 @@ section.success a.active {
   }
 }
 
-.email {
+.about-link {
   color: #{{ site.color.text }};
   padding: 0;
   margin-bottom: 30px;
   font-size: 18px;
 }
 
-.email span {
+.about-link span {
   margin-left: 10px;
 }
 
