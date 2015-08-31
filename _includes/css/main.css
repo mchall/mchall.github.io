@@ -27,6 +27,7 @@ h6 {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
+  margin-bottom: 25px;
 }
 
 .img-centered {
@@ -85,7 +86,7 @@ header .intro-text .skills {
 }
 
 section {
-  padding: 100px 0;
+  padding: 25px 0;
 }
 
 section h2 {
