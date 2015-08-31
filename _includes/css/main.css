@@ -16,6 +16,14 @@ p.small {
   font-size: 16px;
 }
 
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: 0;
+}
+
 h1,
 h2,
 h3,
@@ -39,13 +47,10 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f005";
   display: inline-block;
   position: relative;
   top: -.8em;
   padding: 0 .25em;
-  font-family: FontAwesome;
-  font-size: 2em;
 }
 
 hr.star-light:after {
@@ -64,14 +69,6 @@ header {
 header .container {
   padding-top: 100px;
   padding-bottom: 50px;
-}
-
-header img {
-  display: block;
-  margin: 0 auto 20px;
-  height: 256px;
-  width: 256px;
-  border-radius: 50%;
 }
 
 header .intro-text .name {
@@ -268,6 +265,9 @@ section.success {
   opacity: .3;
 }
 
-.about-text {
-  text-align: center;
+#about img {
+  display: block;
+  max-width: 256px;
+  margin: 0px auto 20px;
+  border-radius: 256px;
 }
