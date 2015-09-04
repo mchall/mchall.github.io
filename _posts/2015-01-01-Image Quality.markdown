@@ -1,4 +1,5 @@
 ---
+layout: default
 category: sideline
 img: ImageQuality.png
 alt: Image Quality

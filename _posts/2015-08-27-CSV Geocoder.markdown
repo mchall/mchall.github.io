@@ -1,4 +1,5 @@
 ---
+layout: default
 category: sideline
 img: Geocoder.jpg
 alt: CSV Geocoder

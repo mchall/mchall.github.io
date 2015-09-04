@@ -1,4 +1,5 @@
 ---
+layout: default
 category: sideline
 img: GoogleMaps.png
 alt: Google Maps API for .NET

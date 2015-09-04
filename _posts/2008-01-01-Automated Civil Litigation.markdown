@@ -1,4 +1,5 @@
 ---
+layout: default
 category: work
 img: ACL.jpeg
 alt: Automated Civil Litigation

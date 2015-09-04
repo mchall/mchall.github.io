@@ -1,4 +1,5 @@
 ---
+layout: default
 category: sideline
 img: GoogleAnalyticsViewer.jpg
 alt: Google Analytics Real Time Viewer
