@@ -1,8 +1,6 @@
 ---
 layout: default
 category: sideline
-modal-id: 9
-date: 2015-01-01
 img: ImageQuality.png
 alt: Image Quality
 project-date: 2015

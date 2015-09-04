@@ -1,8 +1,6 @@
 ---
 layout: default
 category: sideline
-modal-id: 11
-date: 2015-08-27
 img: Geocoder.png
 alt: CSV Geocoder
 project-date: 2015

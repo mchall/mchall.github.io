@@ -1,8 +1,6 @@
 ---
 layout: default
 category: sideline
-modal-id: 8
-date: 2015-01-01
 img: Watermarking.png
 alt: Hidden Watermarking
 project-date: 2015

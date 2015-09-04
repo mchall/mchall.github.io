@@ -1,0 +1,39 @@
+<div class="portfolio-modal modal fade" id="portfolioModal-{{ include.post.category }}-{{ include.idx }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">×</span>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h3 class="padded">{{ include.post.title }}</h3>
+            <a href="{{ post.site }}" target="_blank"><img src="/img/portfolio/{{ include.post.img }}" class="img-responsive img-centered" alt="{{ include.post.alt }}"></a>
+            <p>{{ include.post.description }}</p>
+
+            <ul class="list-inline item-details tag-list">
+              {% for tag in post.tags %}
+                <li>{{ tag | upcase }}</li>
+                {% if forloop.last != true %}
+                  <li><i class="fa fa-circle fa-1"></i></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+
+            <ul class="list-inline item-details">
+              <li>Website:
+                <strong><a href="{{ post.site }}" target="_blank">Visit</a>
+                </strong>
+              </li>
+              <li>Date:
+                <strong>{{ include.post.project-date }}
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

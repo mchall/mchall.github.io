@@ -1,8 +1,6 @@
 ---
 layout: default
 category: sideline
-modal-id: 10
-date: 2015-08-01
 img: GoogleAnalyticsViewer.jpg
 alt: Google Analytics Real Time Viewer
 project-date: 2015

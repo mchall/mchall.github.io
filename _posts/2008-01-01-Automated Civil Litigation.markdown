@@ -1,8 +1,6 @@
 ---
 layout: default
 category: work
-modal-id: 1
-date: 2008-01-01
 img: ACL.jpeg
 alt: Automated Civil Litigation
 project-date: 2008 - 2010
