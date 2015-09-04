@@ -10,15 +10,7 @@
     </div>
     <div class="row">
       {% for post in site.categories.work %}
-      <div class="col-sm-3 portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="caption" ></div>
-          <img src="/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-          <div class="portfolio-desc">
-            <h6>{{ post.alt }}</h6>
-          </div>
-        </a>
-      </div>
+        {% include portfolio_item.html id=post.modal-id img=post.img alt=post.alt %}
       {% endfor %}
     </div>
   </div>
@@ -31,15 +23,7 @@
     </div>
     <div class="row">
       {% for post in site.categories.sideline %}
-      <div class="col-sm-3 portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-          <div class="caption" ></div>
-          <img src="/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-          <div class="portfolio-desc">
-            <h6>{{ post.alt }}</h6>
-          </div>
-        </a>
-      </div>
+        {% include portfolio_item.html id=post.modal-id img=post.img alt=post.alt %}
       {% endfor %}
     </div>
   </div>
