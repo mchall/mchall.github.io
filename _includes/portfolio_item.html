@@ -1,9 +1,9 @@
 <div class="col-sm-3 portfolio-item">
-  <a href="#portfolioModal-{{ include.id }}" class="portfolio-link" data-toggle="modal">
+  <a href="#portfolioModal-{{ include.post.modal-id }}" class="portfolio-link" data-toggle="modal">
     <div class="caption" ></div>
-    <img src="/img/portfolio/{{ include.img }}" class="img-responsive img-centered" alt="{{ include.alt }}">
+    <img src="/img/portfolio/{{ include.post.img }}" class="img-responsive img-centered" alt="{{ include.post.alt }}">
     <div class="portfolio-desc">
-      <h6>{{ include.alt }}</h6>
+      <h6>{{ include.post.alt }}</h6>
     </div>
   </a>
 </div>

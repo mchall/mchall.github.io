@@ -10,7 +10,7 @@
     </div>
     <div class="row">
       {% for post in site.categories.work %}
-        {% include portfolio_item.html id=post.modal-id img=post.img alt=post.alt %}
+        {% include portfolio_item.html post=post %}
       {% endfor %}
     </div>
   </div>
@@ -23,7 +23,7 @@
     </div>
     <div class="row">
       {% for post in site.categories.sideline %}
-        {% include portfolio_item.html id=post.modal-id img=post.img alt=post.alt %}
+        {% include portfolio_item.html post=post %}
       {% endfor %}
     </div>
   </div>
