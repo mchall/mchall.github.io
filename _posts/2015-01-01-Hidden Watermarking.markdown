@@ -1,5 +1,4 @@
 ---
-layout: default
 category: sideline
 img: Watermarking.png
 alt: Hidden Watermarking

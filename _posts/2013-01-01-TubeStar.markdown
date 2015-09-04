@@ -1,5 +1,4 @@
 ---
-layout: default
 category: sideline
 img: TubeStar.png
 alt: TubeStar

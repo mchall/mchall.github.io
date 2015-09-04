@@ -1,5 +1,4 @@
 ---
-layout: default
 category: sideline
 img: invasion.png
 alt: Invasion - Chaos in the Streets

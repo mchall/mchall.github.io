@@ -1,5 +1,4 @@
 ---
-layout: default
 category: work
 img: Domofond.jpeg
 alt: Domofond

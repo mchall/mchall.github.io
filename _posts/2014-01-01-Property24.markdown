@@ -1,5 +1,4 @@
 ---
-layout: default
 category: work
 img: Property24.png
 alt: Property24
