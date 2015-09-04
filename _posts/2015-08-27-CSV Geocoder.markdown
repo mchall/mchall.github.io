@@ -1,6 +1,6 @@
 ---
 category: sideline
-img: Geocoder.png
+img: Geocoder.jpg
 alt: CSV Geocoder
 project-date: 2015
 description: Client app that geocodes a CSV list of location names
