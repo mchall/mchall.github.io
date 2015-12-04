@@ -3,6 +3,10 @@ body {
   font-family: 'Open Sans', sans-serif !important;
 }
 
+p {
+  font-size: 16px;
+}
+
 .cosmic-leap {
   background: #151414;
   color: white;
@@ -12,8 +16,8 @@ body {
     max-height: 250px;
 }
 
-p {
-  font-size: 16px;
+.cosmic-leap-mid p {
+  font-size: 20px;
 }
 
 a,
