@@ -1,13 +1,9 @@
 body {
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif !important;
-
-  .cosmic-leap {
-    background: #151414;
-  }
 }
 
-.cosmic-leap-mid {
+.cosmic-leap {
   background: #151414;
   color: white;
 }
