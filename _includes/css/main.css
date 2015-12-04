@@ -2,14 +2,18 @@ body {
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif !important;
 
-  &.cosmic-leap {
+  .cosmic-leap {
     background: #151414;
   }
 }
 
 .cosmic-leap-mid {
-  background: black;
+  background: #151414;
   color: white;
+}
+
+.cosmic-leap-mid .logo {
+    max-height: 250px;
 }
 
 p {
