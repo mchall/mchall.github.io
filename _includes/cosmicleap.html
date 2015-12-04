@@ -1,13 +1,27 @@
 <div class="cosmic-leap-mid col-lg-8 col-lg-offset-2">
 
-  <section id="downloads">
+  <section id="gallery">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <iframe src="//itch.io/embed/40200" width="552" height="167" frameborder="0"></iframe>
-        </div>
-      </div>
+    <div id="links">
+        <a href="Images/CosmicLeap/cosmicleap01.png" title="Cosmic Leap" />
+        <a href="Images/CosmicLeap/cosmicleap02.png" title="Cosmic Leap" />
+        <a href="Images/CosmicLeap/cosmicleap03.png" title="Cosmic Leap" />
+        <a href="Images/CosmicLeap/cosmicleap04.png" title="Cosmic Leap" />
+        <a href="Images/CosmicLeap/cosmicleap05.png" title="Cosmic Leap" />
+        <a href="Images/CosmicLeap/cosmicleap06.png" title="Cosmic Leap" />
+        <a href="Images/CosmicLeap/cosmicleap07.png" title="Cosmic Leap" />
+        <a href="Images/CosmicLeap/cosmicleap08.png" title="Cosmic Leap" />
+        <a href="Images/CosmicLeap/cosmicleap09.png" title="Cosmic Leap" />
+        <a href="Images/CosmicLeap/cosmicleap10.png" title="Cosmic Leap" />
+    </div>
+
+    <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
     </div>
 
   </section>
@@ -31,4 +45,26 @@
 
   </section>
 
+  <section id="downloads">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <iframe src="//itch.io/embed/40200" width="552" height="167" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
 </div>
+
+<script>
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
+</script>
