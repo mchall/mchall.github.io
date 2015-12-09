@@ -20,6 +20,10 @@ p {
   font-size: 20px;
 }
 
+.cosmic-leap-mid section {
+  padding: 10px 0;
+}
+
 @media(max-width:768px) {
   .cosmic-leap-mid #downloads  {
     display: none;
