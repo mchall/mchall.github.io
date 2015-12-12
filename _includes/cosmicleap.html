@@ -43,6 +43,18 @@
 
   </section>
 
+  <section id="promogallery">
+
+    <div id="blueimp-promo-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="play-pause"></a>
+    </div>
+
+  </section>
+
   <hr>
 
   <section id="footer">
@@ -83,6 +95,20 @@ blueimp.Gallery(
   ],
     {
         container: '#blueimp-image-carousel',
+        carousel: true
+    }
+);
+
+blueimp.Gallery(
+  [
+    '/Images/CosmicLeap/promo1.png',
+    '/Images/CosmicLeap/promo2.png',
+    '/Images/CosmicLeap/promo3.png',
+    '/Images/CosmicLeap/promo4.png',
+    '/Images/CosmicLeap/promo5.png'
+  ],
+    {
+        container: '#blueimp-promo-carousel',
         carousel: true
     }
 );
