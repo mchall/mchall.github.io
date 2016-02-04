@@ -10,7 +10,9 @@
     </div>
     <div class="row">
       {% for post in site.categories.work %}
-        {% include portfolio_item.html post=post idx=forloop.index %}
+        <div class="col-sm-3 portfolio-item">
+          {% include portfolio_item.html post=post idx=forloop.index %}
+        </div>
       {% endfor %}
     </div>
   </div>
@@ -23,7 +25,9 @@
     </div>
     <div class="row">
       {% for post in site.categories.sideline %}
-        {% include portfolio_item.html post=post idx=forloop.index %}
+        <div class="col-sm-4 portfolio-item">
+          {% include portfolio_item.html post=post idx=forloop.index %}
+        </div>
       {% endfor %}
     </div>
   </div>
