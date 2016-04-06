@@ -7,29 +7,6 @@ p {
   font-size: 16px;
 }
 
-.cosmic-leap {
-  background: #151414;
-  color: white;
-}
-
-.cosmic-leap-mid .logo {
-    max-height: 250px;
-}
-
-.cosmic-leap-mid p {
-  font-size: 20px;
-}
-
-.cosmic-leap-mid section {
-  padding: 10px 0;
-}
-
-@media(max-width:768px) {
-  .cosmic-leap-mid #downloads  {
-    display: none;
-  }
-}
-
 a,
 a:hover,
 a:focus,
