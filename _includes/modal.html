@@ -21,16 +21,15 @@
             </ul>
 
             <ul class="list-inline item-details">
-              <li>Website:
-                <strong><a href="{{ post.site }}" target="_blank">Visit</a>
-                </strong>
-              </li>
               <li>Date:
                 <strong>{{ include.post.project-date }}
                 </strong>
               </li>
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            <ul class="actions">
+              <li><a href="{{ post.site }}" class="button big" target="_blank"><i class="fa fa-globe"></i> Visit Website</a></li>
+              <li><button type="button" class="button big alt" data-dismiss="modal"><i class="fa fa-times"></i> Close</button></li>
+            </ul>
           </div>
         </div>
       </div>

@@ -1,24 +1,24 @@
 <header>
   <div id="profile">
-    <h2>{{ site.title }}</h2>
-    <h4>{{ site.skills }}</h4>
-    <div id="download-btn" class="download">
-      <a href="/CV - Michael Clyde Hall.pdf" class="btn btn-lg btn-outline">
-        <i class="fa fa-download"></i> Download CV
-      </a>
-    </div>
-    <div class="header-links">
-      <a href="mailto:{{ site.email }}" class="about-link">
-        <i class="fa fa-envelope"></i><span>{{ site.email }}</span>
-      </a>
-    </div>
-    <div>
-      <a href="http://github.com/mchall" class="about-link">
-        <i class="fa fa-github"></i><span>github.com/mchall</span>
-      </a>
-    </div>
+    <section id="banner">
+      <header>
+        <h2>{{ site.title }}</h2>
+        <p>{{ site.skills }}</p>
+      </header>
+    </section>
+
+    <section id="intro" class="container">
+      <footer>
+        <ul class="actions">
+          <li><a href="/CV - Michael Clyde Hall.pdf" class="button big"><i class="fa fa-download"></i> Download CV</a></li>
+          <li><a href="http://github.com/mchall" class="button alt big"><i class="fa fa-github"></i> GitHub</a></li>
+          <li><a href="mailto:{{ site.email }}" class="button alt big"><i class="fa fa-envelope"></i> Contact</a></li>
+        </ul>
+      </footer>
+    </section>
   </div>
 </header>
+
 <a class="fork-banner" href="https://github.com/mchall">
   <img style="position: absolute; top: 0; left: 0; border: 0;"
   src="https://camo.githubusercontent.com/c6286ade715e9bea433b4705870de482a654f78a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f77686974655f6666666666662e706e67"
