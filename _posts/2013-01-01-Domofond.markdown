@@ -1,7 +1,7 @@
 ---
 layout: default
 category: work
-img: Domofond.jpeg
+img: Domofond.png
 alt: Domofond
 project-date: 2013 - 2014
 description: Russia's &#35;1 Property Portal.<br/>Includes a portal to display listings for end users, and a backend admin system for agents to manage listings.

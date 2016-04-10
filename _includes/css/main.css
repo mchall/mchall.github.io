@@ -87,8 +87,8 @@ section.success a.active {
 }
 
 #portfolio .portfolio-item .portfolio-link img {
-  min-height: 175px;
-  min-width: 175px;
+  max-height: 200px;
+  min-width: 200px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
