@@ -4,7 +4,7 @@ category: sideline
 img: TubeStar.png
 alt: TubeStar
 project-date: 2013,2016
-description: An open source game that simulates running a YouTube channel.<br/>Over 500 000 downloads.
+description: An open source game that simulates running a YouTube channel.<br/>Over 500 000 downloads on PC.<br/>Updated and released later on the Google Play store.
 site: http://mikehall.co.za/tubestar/
 tags: ['C#','WPF','Silverlight','Windows 8 App', 'Unity']
 ---
