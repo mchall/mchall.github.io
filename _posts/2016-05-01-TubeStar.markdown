@@ -3,8 +3,8 @@ layout: default
 category: sideline
 img: TubeStar.png
 alt: TubeStar
-project-date: 2013
+project-date: 2013,2016
 description: An open source game that simulates running a YouTube channel.<br/>Over 500 000 downloads.
-site: http://tubestar.codeplex.com/
-tags: ['C#','WPF','Silverlight','Windows 8 App']
+site: http://mikehall.co.za/tubestar/
+tags: ['C#','WPF','Silverlight','Windows 8 App', 'Unity']
 ---
