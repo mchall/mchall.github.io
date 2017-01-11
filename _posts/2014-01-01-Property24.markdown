@@ -3,7 +3,7 @@ layout: default
 category: work
 img: Property24.png
 alt: Property24
-project-date: 2014 - Current
+project-date: 2014 - 2016
 description: South Africa's &#35;1 property portal.<br/>Includes a portal to display listings for end users, and a backend admin system for agents to manage listings.
 site: http://www.property24.com/
 tags: ['C#','ASP.NET MVC','SQL Server','WCF Web Services','jQuery' ,'JavaScript','Bootstrap LESS','Windows 8 Universal App']
