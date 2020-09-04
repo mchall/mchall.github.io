@@ -1171,13 +1171,12 @@ ol.default {
         }
 		
 		#banner header p.job {
-          font-size: 2.2em;
+          font-size: 2em;
 		  text-transform: uppercase;
         }
 
         #banner header p {
-		  padding-bottom: 0.2em;
-          font-size: 1.5em;
+          font-size: 1.2em;
         }
 		
 		#links {
