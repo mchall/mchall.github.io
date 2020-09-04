@@ -1169,10 +1169,14 @@ ol.default {
           font-size: 2.5em;
           margin: 0 0 0.65em 0;
         }
+		
+		#banner header p:first-child{
+          font-size: 2.2em;
+        }
 
         #banner header p {
 		  padding-bottom: 0.2em;
-          font-size: 1.8em;
+          font-size: 1.5em;
         }
 		
 		#links {
