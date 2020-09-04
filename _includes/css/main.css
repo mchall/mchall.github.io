@@ -1172,11 +1172,13 @@ ol.default {
         }
 
         #banner header p {
+		  padding-bottom: 0.2em;
           font-size: 1.8em;
         }
 		
 		#banner header ul {
           margin-top: 1em;
+		  margin-bottom: 0;
         }
 		
 		#banner header ul li a {
