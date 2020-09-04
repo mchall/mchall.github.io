@@ -1162,8 +1162,7 @@ ol.default {
     }
 
       #banner header {
-        display: inline-block;
-        padding: 2.5em 5em;
+        padding: 1em 0em;
         border-radius: 5px;
       }
 
@@ -1173,7 +1172,15 @@ ol.default {
         }
 
         #banner header p {
-          font-size: 1.5em;
+          font-size: 1.8em;
+        }
+		
+		#banner header ul {
+          margin-top: 1em;
+        }
+		
+		#banner header ul li a {
+          color: white;
         }
 
   /* Intro */
