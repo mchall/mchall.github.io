@@ -1176,12 +1176,12 @@ ol.default {
           font-size: 1.8em;
         }
 		
-		#banner header ul {
-          margin-top: 1em;
-		  margin-bottom: 0;
+		#links {
+		  padding-top: 1em;
+		  word-spacing: 25px;
         }
 		
-		#banner header ul li a {
+		#links a {
           color: white;
         }
 
@@ -1694,6 +1694,16 @@ ol.default {
 
         #banner header p {
           font-size: 1.2em;
+        }
+		
+		#links {
+		  padding-top: 1em;
+		  word-spacing: 25px;
+		  margin-bottom: 0.5px !important;
+        }
+		
+		#links a {
+          color: white;
         }
 
   /* Copyright */
