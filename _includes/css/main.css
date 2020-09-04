@@ -83,12 +83,12 @@ section.success a.active {
   display: block;
   position: relative;
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 250px;
 }
 
 #portfolio .portfolio-item .portfolio-link img {
-  max-height: 200px;
-  min-width: 200px;
+  max-height: 150px;
+  min-width: 150px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
