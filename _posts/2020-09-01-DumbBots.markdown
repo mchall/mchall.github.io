@@ -3,7 +3,7 @@ layout: default
 category: sideline
 img: DumbBots2.png
 alt: DumbBots
-project-date: 2019-2020
+project-date: 2019-2021
 description: A programming sandbox that allows creating scenarios and competition via code. 
 site: http://mikehall.co.za/dumbbots
 tags: ['C#','Unity']
