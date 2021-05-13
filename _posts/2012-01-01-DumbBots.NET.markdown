@@ -5,6 +5,6 @@ img: DumbBots.png
 alt: DumbBots.NET
 project-date: 2012
 description: A C# programming game that allowed programmers to change code that controlled an AI player in real time.<br/>Featured on Coding4Fun and Channel9.
-site: http://dumbbotsnet.codeplex.com/
+site: https://github.com/mchall/DumbBots.Net
 tags: ['C#','3D Engine']
 ---
